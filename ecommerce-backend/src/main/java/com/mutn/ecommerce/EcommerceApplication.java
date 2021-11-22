@@ -32,7 +32,7 @@ public class EcommerceApplication implements CommandLineRunner{
 		Product objProduct = new Product("Monitor",100.0,"https://i.ebayimg.com/00/s/MTE1NlgxNTAw/z/8T8AAOSwTR9d1DrW/$_57.JPG","",c1);
 		productRepository.save(objProduct);
 		
-		objProduct = new Product("Mouse",10.0,"https://i.ebayimg.com/00/s/MTE1NlgxNTAw/z/8T8AAOSwTR9d1DrW/$_57.JPG","",c1);
+		objProduct = new Product("Mouse",10.0,"https://media.kohlsimg.com/is/image/kohls/2025049?wid=1200&hei=1200&op_sharpen=1","",c1);
 		productRepository.save(objProduct);
 		
 		objProduct = new Product("Laptop",1800.0,"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-silver-config-201810?wid=1078&hei=624&fmt=jpeg&qlt=80&.v=1603332212000","",c1);
